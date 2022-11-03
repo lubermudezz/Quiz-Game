@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    background: #7978FF;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    height: 100vh;
+}
+
+.submit {
+    background-color: #C47AFF;
+    width: 100%;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 0px 0px 10px 10px ;
+    bottom: 0;
+}
+
+.content {
+    padding: 50px;
+}
+
+.question{
+    font-size: 40px;
+}
+
+.answer {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+}
+
+.questionTitle {
+    font-family: none;
+    font-size: 45px;
+}
+
+/*PANTALLA DE RESULTADOS*/
+
+
+.result{
+    display: none; 
+    padding: 50px;
+    text-align: center;
+}
+
+.result h1 {
+    font-size: 45px;
+}
+
+.correct{
+    color: rgb(80, 255, 80);
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.incorrect{
+    color: rgb(255, 6, 6);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.play {
+    margin-top: 40px;
+    background-color: #C47AFF;
+    width: 50%;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    bottom: 0;}
+
